@@ -1,5 +1,6 @@
-body {
-	font-family: 'Open Sans', sans-serif;
+body, h1, h2, h3, .hovereffect .overlay-text, .page-nav a, span {
+	font-family: 'Source Han Serif SC VF', 'Crimson Text', 'Open Sans', sans-serif;
+	font-weight: 400;
 }
 
 form {
@@ -24,13 +25,12 @@ button:hover {
 
 input, textarea {
 	font-size: 0.8rem;
-  border: 1px solid #ddd;
-  background: #fff;
-  padding: 0.5rem 0.7rem;
+  	border: 1px solid #ddd;
+  	background: #fff;
+  	padding: 0.5rem 0.7rem;
 	margin: 5px 0;
-  transition: all 0.3s ease-in-out;
-  width: 100%;
-
+  	transition: all 0.3s ease-in-out;
+  	width: 100%;
 }
 
 input:focus, textarea:focus {
@@ -56,9 +56,8 @@ input:focus, textarea:focus {
 }
 
 h1, h2, h3 {
-	font-family: 'Crimson Text', sans-serif;
 	letter-spacing: 1px;
-	font-weight: 300;
+	font-weight: 400;
 	margin-bottom: 20px;
 }
 
@@ -121,7 +120,6 @@ h1, h2, h3 {
 
 .hovereffect .overlay-text {
 	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
 	color: #000;
 	left: 50%;
@@ -165,7 +163,6 @@ h1, h2, h3 {
 }
 .page-nav a,span {
 	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
 	margin: 0 10px;
 	color: #000;
